@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="style.js"></script>
+
+</head>
+<body>
+    <header >
+        <!-- navber -->
+       <div class="flex justify-between  p-4 items-center">
+        <!-- logo -->
+        <div>
+                <img class="w-24  "  src="./images/about//2-removebg-preview.png" alt="">
+        </div>
+      <div>
+        <ul class="flex gap-4 text-2xl ">
+            <li  class="hover:text-red-600"><a href="">Home</a></li>
+            <li  class="hover:text-red-600"><a  href="shop.html" target="_blank">Shop</a></li>
+            <li class="hover:text-red-600"><a href="#blogs" >Blog</a></li>
+            <li class="hover:text-red-600"><a href="about.html">About</a></li>
+            <li class="hover:text-red-600"><a href="login.html" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+
+      </div>
+
+       </div>
+        <!-- banner -->
+        <div class="flex justify-around gap-4 container mx-auto mt-10">
+
+
+          <div class="flex justify-center items-center">
+            <div class="space-y-4" >
+              <h1 class="text-5xl font-semibold text-center">Best Collection</h1>
+              <h2  class="text-4xl font-semibold text-center">EXCLUSIVE FASHION 2023</h2>
+             <div class="flex justify-center items-center">
+              <button class="btn-outline btn">SHOP NOW</button>
+             </div>
+  
+            </div>
+          </div>
+
+
+            <div class="">
+              <img  src="./images/b18-removebg-preview.png" alt="">
+            </div>
+          
+            
+
+        </div>
+    </header>
+    <main class="container mx-auto  my-20">
+       
+        <section class="my-10">
+           
+            <div class="text-end mr-20 ">
+                <h1 class="text-5xl font-bold">For Women’s Collection</h1>
+                
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-5 mt-10">
+
+              <div>
+                <img class="rounded-xl" src="./images/adnan/banner2.webp" alt="">
+
+              </div>
+
+
+                <!-- woment collection 3 cols card -->
+
+                <div class="grid grid-cols-3 gap-5 cursor-pointer" onclick="shop()" >
+
+                  <!-- 1 card -->
+                  <div class="border p-4 rounded-2xl">
+                      <img class="rounded-xl" src="./images/adnan/product5.webp" alt="">
+                     
+                      <h1 class=" font-semibold mt-5">
+                        Solid Sweatshirt</h1>
+                     
+                        <p class="text-xl font-semibold">$99</p>
+    
+    
+                  </div>
+    
+                     <!-- 2 card -->
+                     <div class="border p-4 rounded-2xl">
+                      <img class="rounded-xl" src="./images/adnan/product2.webp" alt="">
+                     
+                      <h1 class=" font-semibold mt-5">Nike Shoes</h1>
+                     
+                        <p class="text-xl font-semibold">$89</p>
+    
+    
+                  </div>
+    
+                     <!-- 3 card -->
+                     <div class="border p-4 rounded-2xl">
+                      <img class="rounded-xl" src="./images/adnan/product19.webp" alt="">
+                     
+                      <h1 class=" font-semibold mt-5">Off White colour Jacket</h1>
+                     
+                        <p class="text-xl font-semibold">$79</p>
+    
+    
+                  </div>
+    
+                     <!-- 4 card -->
+                     <div class="border p-4 rounded-2xl">
+                      <img class="rounded-xl" src="./images/adnan/product17.webp" alt="">
+                     
+                      <h1 class=" font-semibold mt-5">black colour Jacket</h1>
+                     
+                        <p class="text-xl font-semibold">$69</p>
+    
+    
+                  </div>
+    
+                     <!-- 5 card -->
+                     <div class="border p-4 rounded-2xl">
+                      <img class="rounded-xl" src="./images/adnan/product16.webp" alt="">
+                     
+                      <h1 class=" font-semibold mt-5">Gradian colour Jacket</h1>
+                     
+                        <p class="text-xl font-semibold">$59</p>
+    
+    
+                  </div>
+    
+                     <!-- 6 card -->
+                     <div class="border p-4 rounded-2xl">
+                      <img class="rounded-xl" src="./images/adnan/product8.webp" alt="">
+                     
+                      <h1 class=" font-semibold mt-5">Zipper Hoodie</h1>
+                     
+                        <p class="text-xl font-semibold">$49</p>
+    
+    
+                  </div>
+    
+              
+    
+              </div>
+
+
+
+            </div>
+
+            <!-- <div class="flex justify-end mr-40">
+              <button class="btn btn-ghost mt-5">Buy Products</button>
+            </div> -->
+          
+
+
+
+
+
+
+
+
+        </section>
+
+       
+
+
+       
+
+        <section class="mt-20 ">
+
+            <img class="w-full h-96" src="./images/banner/b4.jpg" alt="">
+            <div class="relative bottom-60 left-12 text-white space-y-5 text-center">
+                <h1>Repair Services</h1>
+                <h1 class="text-4xl font-bold">Up To <span class="text-[#ef3636]">70% Off</span> - All t-Shirts & Accessories</h1>
+                <button class="btn hover:bg-red-500">Explore More</button>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <!-- mens collection -->
+        <section class="my-10">
+           
+          <div class="text-start ml-20 ">
+              <h1 class="text-5xl font-bold">For Men’s Collection</h1>
+             
+          </div>
+
+          <div class="grid lg:grid-cols-2 gap-5 mt-10">
+            <div class="grid grid-cols-3 gap-5 cursor-pointer"onclick="shop()">
+
+              <!-- 1 card -->
+              <div class="border p-4 rounded-2xl">
+                  <img class="rounded-xl" src="./images/adnan/product5.webp" alt="">
+                 
+                  <h1 class=" font-semibold mt-5">
+                    Solid Sweatshirt</h1>
+                 
+                    <p class="text-xl font-semibold">$99</p>
+
+
+              </div>
+
+                 <!-- 2 card -->
+                 <div class="border p-4 rounded-2xl">
+                  <img class="rounded-xl" src="./images/adnan/product2.webp" alt="">
+                 
+                  <h1 class=" font-semibold mt-5">Nike Shoes</h1>
+                 
+                    <p class="text-xl font-semibold">$89</p>
+
+
+              </div>
+
+                 <!-- 3 card -->
+                 <div class="border p-4 rounded-2xl">
+                  <img class="rounded-xl" src="./images/adnan/product19.webp" alt="">
+                 
+                  <h1 class=" font-semibold mt-5">Off White colour Jacket</h1>
+                 
+                    <p class="text-xl font-semibold">$79</p>
+
+
+              </div>
+
+                 <!-- 4 card -->
+                 <div class="border p-4 rounded-2xl">
+                  <img class="rounded-xl" src="./images/adnan/product17.webp" alt="">
+                 
+                  <h1 class=" font-semibold mt-5">black colour Jacket</h1>
+                 
+                    <p class="text-xl font-semibold">$69</p>
+
+
+              </div>
+
+                 <!-- 5 card -->
+                 <div class="border p-4 rounded-2xl">
+                  <img class="rounded-xl" src="./images/adnan/product16.webp" alt="">
+                 
+                  <h1 class=" font-semibold mt-5">Gradian colour Jacket</h1>
+                 
+                    <p class="text-xl font-semibold">$59</p>
+
+
+              </div>
+
+                 <!-- 6 card -->
+                 <div class="border p-4 rounded-2xl">
+                  <img class="rounded-xl" src="./images/adnan/product8.webp" alt="">
+                 
+                  <h1 class=" font-semibold mt-5">Zipper Hoodie</h1>
+                 
+                    <p class="text-xl font-semibold">$49</p>
+
+
+              </div>
+
+          
+
+          </div>
+
+            <div>
+              <img class="rounded-xl" src="./images/adnan/banner4.webp" alt="">
+
+            </div>
+
+          </div>
+
+     
+      </section>
+
+    <!-- latest blogs -->
+    <section id="blogs">
+      <div class="my-10">
+
+
+        <div class="text-center my-8">
+          <h1 class="text-5xl font-semibold">Latest <span class="text-red-700">Blogs</span></h1>
+          <p class="mt-5 text-[#818181]">Contemporary, minimal and modern designs embody the Lavish Alice handwriting</p>
+        </div>
+
+        <div class=" grid lg:grid-cols-3 gap-2 ">
+
+          <!-- blogs-1 -->
+          <div class=" p-4 rounded-2xl border h-[540px] w-[348px]">
+            <img class="rounded-xl " src="./images/adnan/blog1.webp" alt="">
+           
+            <h1 class=" font-semibold mt-5">Cartoon Astronaut T-Shirt</h1>
+            <p>by <span class="text-red-700">Ecommerce Themes</span>/30 oct 2023</p>
+            <p class="mt-5 text-[#818181]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, reiciendis!</p>
+           
+              <button class="btn mt-5">Read More</button>
+          </div>
+
+           <!-- blogs-2 -->
+
+          <div class=" p-4 rounded-2xl border h-[540px] w-[348px]">
+            <img class="rounded-xl " src="./images/adnan/blog2.webp" alt="">
+           
+            <h1 class=" font-semibold mt-5">Cartoon Astronaut T-Shirt</h1>
+            <p>by <span class="text-red-700">Ecommerce Themes</span>/30 oct 2023</p>
+            <p class="mt-5 text-[#818181]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, reiciendis!</p>
+           
+              <button class="btn mt-5">Read More</button>
+          </div>
+
+           <!-- blogs-3 -->
+
+
+          <div class=" p-4 rounded-2xl border h-[540px] w-[348px]">
+            <img class="rounded-xl " src="./images/adnan/blog3.webp" alt="">
+           
+            <h1 class=" font-semibold mt-5">Cartoon Astronaut T-Shirt</h1>
+            <p>by <span class="text-red-700">Ecommerce Themes</span>/30 oct 2023</p>
+            <p class="mt-5 text-[#818181]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, reiciendis!</p>
+           
+              <button class="btn mt-5">Read More</button>
+          </div>
+
+          
+
+       
+
+
+    
+
+        </div>
+
+        <div onclick="blogs()" class="flex justify-center mt-10 ">
+          <button class="btn hover:bg-red-700 hover:text-white">SEE ALL BlOGS</button>
+        </div>
+
+
+      </div>
+    </section>
+<hr class="my-20">
+
+
+    <!-- instragram -->
+    <section>
+      <div class="my-10">
+
+        <div class="text-center my-8">
+          <h1 class="text-5xl font-semibold">Follow us On <span class="text-red-700">Instagram</span></h1>
+          <p class="mt-5 text-[#818181]">Contemporary, minimal and modern designs embody the Lavish Alice handwriting</p>
+        </div>
+
+
+        <div class="grid grid-cols-5 gap-3">
+          
+          <div>
+            <img src="./images/adnan/01.webp" alt="">
+          </div>
+
+
+          <div>
+            <img src="./images/adnan/02.webp" alt="">
+          </div>
+
+
+          <div>
+            <img src="./images/adnan/03.webp" alt="">
+          </div>
+
+         
+          <div>
+            <img src="./images/adnan/02.webp" alt="">
+          </div>
+
+          <div>
+            <img src="./images/adnan/01.webp" alt="">
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+
+    <!-- Why Choose Us -->
+    <section class="my-20">
+            <div class="space-y-4">
+              <p class="text-5xl font-semibold text-center">Why Choose Us</p>
+              <p class="text-sm text-[#818181] text-center">the majority have suffered alteration in some form, by injected humour, or randomised <br> words which don't look even slightly believable. </p>
+
+            </div> 
+            <div class="grid justify-center items-center mt-10 gap-3 lg:grid-cols-5 grid-cols-3">
+
+              <div class="border mx-auto text-center hover:bg-[#FF3811] hover:text-white p-6 rounded-xl">
+                <img src="./images//latest/group.png" alt="">
+                <p class="font-semibold text-center">Expert Team</p>
+
+              </div>
+
+              
+
+              <div class="border mx-auto text-center hover:bg-[#FF3811] hover:text-white p-4 rounded-xl">
+                <img src="./images//latest/person.png" alt="">
+                <p class="font-semibold text-center">24/7 Support</p>
+
+              </div>
+
+             
+
+              <div class="border mx-auto text-center hover:bg-[#FF3811] hover:text-white p-4 rounded-xl">
+                <img src="./images//latest/check.png" alt="">
+                <p class="font-semibold text-center">100% Guranty</p>
+
+              </div>
+
+              <div class="border mx-auto text-center hover:bg-[#FF3811] hover:text-white p-4 rounded-xl">
+                <img src="./images//latest/group.png" alt="">
+                <p class="font-semibold text-center">Expert Team</p>
+
+              </div>
+
+              <div class="border mx-auto text-center hover:bg-[#FF3811] hover:text-white p-4 rounded-xl">
+                <img src="./images//latest/deliveryt.png" alt="">
+                <p class="font-semibold text-center">Timely Delivery</p>
+
+              </div>
+
+            </div>     
+    </section>
+
+    <section>
+
+    </section>
+
+
+
+
+    <hr class="my-20">
+
+    <!-- reviews -->
+         <section class="">
+          <p class="text-center font-bold text-5xl my-10">OUR <span class="text-red-700">CLIENTS</span></p>
+          <div class="grid lg:grid-cols-3 gap-4 grid-cols-1">
+
+            <div class="border p-10 rounded-xl mx-auto space-y-4 ">
+              <div class="flex justify-center items-center">
+                <img class="w-24 rounded-full" src="./images/reviews/photo_2023-11-14_21-26-22.jpg" alt="">
+              </div>
+              <p class="text-center my-5 font-bold text-xl">Mehedi Hasan Rony</p>
+              
+
+              <div>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo qui consequuntur nesciunt veritatis, earum ipsa sed aut provident labore.</p>
+              </div>
+              <!-- rating -->
+              <div class="flex justify-center">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+              </div>
+
+            </div>
+
+            <div class="border p-10 rounded-xl mx-auto space-y-4 ">
+              <div class="flex justify-center items-center">
+                <img class="w-24 rounded-full" src="./images/reviews/photo_2023-11-14_21-26-23 (2).jpg" alt="">
+              </div>
+              <p class="text-center my-5 font-bold text-xl">Tamjid Ahmed</p>
+              
+
+              <div>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo qui consequuntur nesciunt veritatis, earum ipsa sed aut provident labore.</p>
+              </div>
+              <!-- rating -->
+              <div class="flex justify-center">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="border p-10 rounded-xl mx-auto space-y-4 ">
+              <div class="flex justify-center items-center">
+                <img class="w-24 rounded-full" src="./images/reviews/photo_2023-11-14_21-26-23.jpg" alt="">
+              </div>
+              <p class="text-center my-5 font-bold text-xl">Sabrin Nahar</p>
+              
+
+              <div>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo qui consequuntur nesciunt veritatis, earum ipsa sed aut provident labore.</p>
+              </div>
+              <!-- rating -->
+              <div class="flex justify-center">
+                <div class="rating">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer p-10 bg-base-200 text-base-content">
+   
+      <nav>
+        <header class="font-bold">Services</header> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+
+      <nav>
+        <header class="font-bold">Company</header> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      
+      <nav>
+        <header class="font-bold">Legal</header> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+
+
+
+
+
+    
+    
+</body>
+</html>
